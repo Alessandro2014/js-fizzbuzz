@@ -4,8 +4,8 @@ ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di
 Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 1 far stampare i numeri da 1 a 100
-2 creare varianti con le parole chiavi
-3 creare condizioni affinchè vengano modificati i multipli di 3 e 5 in parole chiavi
+2 creare condizioni affinchè vengano modificati i multipli di 3 e 5 in parole chiavi
+3 sovrascrivere i numeri multipli di 3, 5, 3 e 5.
 */
 
 
