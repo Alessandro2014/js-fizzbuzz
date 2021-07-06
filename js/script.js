@@ -13,7 +13,7 @@ for (var i = 1; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
         console.log("FizzBuzz");
     } 
-    if (i % 3 == 0) {
+    else if (i % 3 == 0) {
         console.log("Fizz");
     }   
     else if (i % 5 == 0) {
@@ -23,3 +23,25 @@ for (var i = 1; i <= 100; i++) {
         console.log("numero ", i);
     }  
 }
+
+var list = document.getElementById("numbers-list");
+
+//variabile di appoggio
+var listNumber = "" 
+
+for (var i = 1; i <= 100; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
+        listNumber += "<li>FizzBuzz</li>";
+    } 
+    else if (i % 3 == 0) {
+        listNumber += "<li>Fizz</li>";
+    }   
+    else if (i % 5 == 0) {
+        listNumber += "<li>Buzz</li>";
+    }   
+    else {
+        listNumber += "<li>" + i + "</li>";
+    }  
+}
+
+list.innerHTML = listNumber
